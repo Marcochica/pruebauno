@@ -85,6 +85,14 @@ a {
 
 /*Commons*/
 
+.s-color{
+    color: #ff5000;
+}
+
+.g-color{
+    color:#646464;
+}
+
 .t-right{
     text-align: right;
 }
@@ -96,6 +104,7 @@ a {
 .f-left{
     float: left;
 }
+
 .f-right{
     float: right;
 }
@@ -131,10 +140,18 @@ a {
 
 .btn-estimate{
     background-color: #ff5000;
+    border: solid 2px #ffffff;
     border-radius: 8px;
     color: #ffffff;
     margin: 9px 28px 0 0;
     padding: 10px 7px;
+}
+
+.btn-estimate:hover{
+    background-color: #ffffff;
+    transition: all 2s;
+    color: #c03c00;
+    border: solid 2px #c03c00;
 }
 
 /*Banner Main*/
@@ -160,16 +177,88 @@ a {
     font-size: 1.8em;
 }
 
+.start-now{
+    background-color: #ebebeb;
+    height: 120px;
+    margin-top: -5px;
+}
+
+.content-text-start-now{
+    float: left;
+    padding: 20px 0;
+    text-align: right;
+    width: 35%;
+}
+
+.content-btn-start-now{
+    float: left;
+    padding: 52px 0 0 82px;
+    width: 20%;
+}
+
+.small-start-now{
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.medium-start-now{
+    color: #fc631d;
+}
+
+.big-start-now{
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.btn-start-now{
+    color: #000000;
+    border: solid 2px;
+    padding: 12px 46px;
+    border-radius: 10px;
+}
+
+.btn-start-now:hover{
+    transition: all 2s;
+    color: #c03c00;
+    border: solid 2px #c03c00;
+}
+
 /*Sections*/
 
 .section-left{
+    padding-top: 40px;
     width: 70%;
 }
 .section-right{
     width: 30;
 }
 
+.content-model{
+    padding-left: 15em;
+}
 
+.title-model{
+    text-align: center;
+    display: block;
+    margin-top: 62px;
+    font-size: 1.2em;
+}
+
+.text-model{
+    font-size: 0.9em;
+    color: #515151;
+    text-align: center;
+}
+
+.double{
+    width: 40%;
+}
+
+.normal-content{
+    margin-top: 100px;
+    text-align: center;
+    width: 20%;
+}
 
 /*Footer*/
 
