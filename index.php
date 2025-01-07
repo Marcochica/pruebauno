@@ -3,7 +3,7 @@
   <section class="content-area content-thin">
       <div class="content-info">
           <?php
-            get_template_part('template-parts/home/banner');
+            get_template_part('template-parts/home');
           ?>
     </div>
 </main>

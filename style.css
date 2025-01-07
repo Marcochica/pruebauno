@@ -21,25 +21,12 @@ body > header > h1 > a {
     font-weight: 400;
 }
 
-.my-logo,
-footer {
-  width: 100%;
-  padding-left: 1%;
-  margin-bottom: 8px;
-  background-color: #78baff;
-  border: 1px solid #78baff;
-}
-  
-footer {
-    margin-top: 4px;
-}
-
 a {
     text-decoration: none;
 }
 
 .wrap {
-    width: 96%;
+    width: 100%;
     margin:auto;
 }
 
@@ -57,9 +44,6 @@ a {
 
 .content-info {
     width: 100%;
-    text-align: left;
-    margin: 5px;
-    padding: 10px;
 }
 
 .article-full {
@@ -73,13 +57,12 @@ a {
     vertical-align: top;
     background-color: #FFF;
     border-radius: 4px;
-    margin-bottom: 4px;
 }
 
+/*Menu*/
 .menu{
-    position: absolute;
-    right: 5%;
-    top: 5px;
+    position: relative;
+    float: left;
 }
 
 .menu ul{
@@ -92,11 +75,109 @@ a {
 }
 
 .menu ul li a{
-    color: #ffffff;
+    color: #000000;
 }
 
 .menu ul li a:hover{
-    transition: all 3s;
-    color: #424242;
+    transition: all 2s;
+    color: #c03c00;
 }
 
+/*Commons*/
+
+.t-right{
+    text-align: right;
+}
+
+.img-responsive{
+    max-width: 100%;
+}
+
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+
+/*Header*/
+
+.header-top{
+    background-color: #000000;
+    color: #c03c00;
+    height: 30px;
+}
+
+.content-header-top{
+    background-color: #000;
+    float: left;
+    height: auto;
+    padding: 5px 0;
+    width: 50%;
+}
+
+.header-bottom{
+    height: 90px;
+    margin: auto;
+    max-width: 1200px;
+    padding-top: 22px;
+    position: relative;
+}
+
+.container-header-top{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.btn-estimate{
+    background-color: #ff5000;
+    border-radius: 8px;
+    color: #ffffff;
+    margin: 9px 28px 0 0;
+    padding: 10px 7px;
+}
+
+/*Banner Main*/
+
+.banner-brand{
+    position: relative;
+}
+
+.layer-banner-brand{
+    background-color: #00000052;
+    height: 487px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.layer-banner-brand span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 1.8em;
+}
+
+/*Sections*/
+
+.section-left{
+    width: 70%;
+}
+.section-right{
+    width: 30;
+}
+
+
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    padding-left: 1%;
+    margin-bottom: 8px;
+    background-color: #78baff;
+    border: 1px solid #78baff;
+      margin-top: 4px;
+}
